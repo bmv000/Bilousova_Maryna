@@ -1,0 +1,202 @@
+:root{
+    --header-color:#212121;
+    --text-color:#757575;
+    --accent-color:#2196F3;
+    --wite-color: #FFFFFF;
+    --black-color: #000000;
+    --background-dark:#2F303A;
+    --background-origin:#F5F4FA;
+    --background-basic: #E5E5E5;
+}
+ul{
+    list-style: none;
+}
+.header{
+    background-color:var(--wite-color);
+}
+body{ 
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+background-color: var(--background-basic);
+
+ 
+
+}
+.logo{
+font-family: Raleway;
+font-size: 26px;
+font-weight: 700;
+line-height: 1.19;
+text-align: left;
+color: var(--accent-color);
+text-decoration: none;
+ 
+}
+.logo-parttwo{
+    
+    color:var(--black-color); 
+}
+.site-nav{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--header-color);
+    text-decoration: none;
+}
+.contacts{
+    color: var(--text-color); 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+}
+.current,.site-nav:hover,.site-nav:focus,.contacts:hover,.contacts:focus,.contacts-footer:hover,.contacts-footer:focus,.adress-footer:hover,.adress-footer:focus {
+    color:var(--accent-color);
+}
+.hero{
+background: var(--background-dark);
+height: 600px;
+width: 1600px;
+left: 0px;
+top: 80px;
+border-radius: 0px;
+}
+.title-hero{ 
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--wite-color);
+}
+.button{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--accent-color) ;
+color: var(--wite-color);
+border: none;
+width: 200px;
+height: 50px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+.button:hover,.button:focus {
+    background-color: #188CE8;
+}
+.benefits, .work{
+    background:var(--background-basic);
+}
+
+.benefits-title{ 
+    display: none;
+}
+.benefits-list-title {
+ font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--header-color); 
+}
+.benefits-text {
+font-size: 14px;
+line-height: 1.71;
+color:var(--text-color);
+}
+.work-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color:var(--header-color);
+}
+.team{
+    background: var(--background-origin);
+}
+.team-title{
+ font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+color: var(--header-color);
+}
+.team-employee{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--header-color);
+}
+.team-position{
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+color: var(--text-color);
+
+}
+.footer{
+    background: var(--background-dark);
+    text-decoration: none;
+}
+.logo-parttwo-footer{
+color: var(--wite-color);
+}
+.adress-footer{
+    font-size: 14px;
+    line-height: 1.17;
+    text-decoration: none;
+    color:var(--wite-color); 
+    font-family: 'Roboto';
+font-style: normal;
+letter-spacing: 0.03em;
+}
+.contacts-footer{
+  font-size: 14px;
+  line-height: 1.17;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+letter-spacing: 0.03em;
+font-family: 'Roboto';
+font-style: normal;
+}
+/* portfolio */
+.portfolio-project{
+    background-color: #E5E5E5;
+}
+
+.portfolio-project-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    color: var(--header-color);
+    background:var(--background-origin);
+    border-radius: 4px;
+    border:none;
+    cursor: pointer;
+}
+.portfolio-project-button:hover,.portfolio-project-button:focus{
+     color: var(--wite-color);
+    background:var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px; 
+}
+.portfolio-project-clien{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color:var(--header-color)
+}
+.portfolio-project-order{
+font-size: 16px;
+line-height: 1.88;
+color: var(--text-color);
+}
