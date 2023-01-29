@@ -130,8 +130,8 @@ color: #b45a1e;}
 max-width: 370px;
 }
 .Photo{
-    width: 370px;
-    height: 100%;
+    max-width: 370px;
+    max-height: 100%;
   
 }
 .Contacts,
